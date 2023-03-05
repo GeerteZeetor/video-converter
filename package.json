@@ -9,9 +9,12 @@
   "author": "Andrey Morozov",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.1.4"
+    "inquirer": "^8.2.0",
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.3"
+    "@types/inquirer": "^8.2.0",
+    "@types/node": "^18.14.6",
+    "@types/node-fetch": "^2.6.2"
   }
 }
