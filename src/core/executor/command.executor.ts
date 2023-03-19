@@ -3,7 +3,7 @@ import { ChildProcessWithoutNullStreams } from 'child_process';
 import { ICommandExec } from './command.types';
 
 export abstract class CommandExecutor<Input> {
-  constructor(private logger: IStreamLogger) {}
+  protected constructor(private logger: IStreamLogger) {}
 
   public async execute() {
     const input = await this.prompt();
